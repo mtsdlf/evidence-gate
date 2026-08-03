@@ -1,0 +1,17 @@
+{
+  "name": "evidence-gate",
+  "version": "1.0.0",
+  "description": "A merge gate where only objective evidence can authorize a merge and model judgment can only veto.",
+  "type": "module",
+  "main": "src/gate.ts",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["ai-agents", "merge-queue", "ci", "agent-governance", "guardrails"],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  }
+}
