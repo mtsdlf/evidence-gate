@@ -61,6 +61,10 @@ dependencies, no I/O, one branch per rule. The difficulty was never the implemen
 noticing that the model must not be in the authorizing path, and then holding that line everywhere
 it would have been convenient not to.
 
+There is a longer piece on the reasoning, the failure modes I hit, and why the harness rather than
+the prompt is where the engineering belongs: **[Only objective evidence can authorize a
+merge](docs/why-evidence-authorizes.md)**.
+
 ## Where it came from
 
 Extracted from a personal autonomous delivery system that drained several hundred issues to trunk
